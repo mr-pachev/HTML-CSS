@@ -1,0 +1,7 @@
+code + span{
+    color: red;
+}
+
+h1 + span{
+    color: red;
+}
