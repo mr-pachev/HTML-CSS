@@ -1,7 +1,8 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
-div{
+.fill *{
     color: rgb(251, 251, 251);
+    background-color: rgb(51, 51, 51);
 }
 
 .hover:hover{
