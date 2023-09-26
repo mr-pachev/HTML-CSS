@@ -8,3 +8,9 @@
 .hover:hover{
     background-color: rgb(0, 102, 0);
 }
+
+button{
+    cursor: pointer;
+    outline: 8px ridge rgb(0, 102, 0);
+    border-radius: 2rem;
+}
