@@ -1,0 +1,16 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Great Vibes';
+}
+
+.list1, .list2{
+    list-style-type: disc;
+}
+
+.list3{
+    list-style-type: circle;
+}
