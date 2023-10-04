@@ -2,6 +2,7 @@ body{
     font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    padding: 3em;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -24,4 +25,13 @@ table{
     width: 100%;
     text-align: left;
     vertical-align: middle;
+    margin: 0;
+}
+
+tr:nth-child(odd){
+    background-color:rgb(236, 230, 230);
+}
+
+th{
+    background-color: darkgray;
 }
