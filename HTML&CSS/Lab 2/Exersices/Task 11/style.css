@@ -1,3 +1,7 @@
+table {
+    border-collapse: collapse;
+  }
+
 body{
     font-family: 'Helvetica', sans-serif;
     font-size: 16px;
@@ -18,7 +22,18 @@ ul .end-list{
 }
 
 blockquote{
-    border-style: rgb(221,221,221);
+    font-style: italic;
+    position: relative;
+    border-left: solid  rgb(221,221,221) 3px;
+    padding-left: 1.2em;
+}
+
+blockquote p{
+    right: 50%;
+}
+
+.gray-border{
+    border: 2px solid  darkgray;
 }
 
 table{
@@ -34,4 +49,8 @@ tr:nth-child(odd){
 
 th{
     background-color: darkgray;
+}
+
+table td{
+    border-color: darkgray;
 }
