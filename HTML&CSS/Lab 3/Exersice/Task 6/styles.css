@@ -1,5 +1,48 @@
+body{
+    margin: 2em;
+}
+
 header{
     display: inline-block;
     font-family: 'Helvetica', sans-serif;
+    border-bottom: 2px solid gray;
+    width: 100%;
 }
 
+h1{
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    position: relative;
+    left: 7%;
+}
+
+main{
+    padding-top: 0.8em;
+}
+
+#home{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+#about{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+#blog{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+#contacts{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(26, 152, 26);
+}
