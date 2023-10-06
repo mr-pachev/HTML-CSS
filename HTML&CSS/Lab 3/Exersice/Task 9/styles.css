@@ -1,0 +1,23 @@
+body{
+    font-family: 'Helvetic', sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+article{
+    display: inline-block;
+    width: 60%;
+}
+
+img{
+    display: block;
+    width: 50%;
+    left: 0;
+    margin: 1.5em 0;
+}
+
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
