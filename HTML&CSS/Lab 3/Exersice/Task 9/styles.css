@@ -10,7 +10,7 @@ body{
     background-color: rgb(238, 238, 238);
     color: rgb(51, 51, 51);
     margin: 2em;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 article{
@@ -28,7 +28,7 @@ img{
 
 aside{
     display: block;
-    position: relative;
-    left: 70%;
-    bottom: 80%;
+    position: absolute;
+    left: 60%;
+    top: 0;
 }
