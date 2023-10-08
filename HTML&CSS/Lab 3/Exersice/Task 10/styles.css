@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    display: block;
+   }
+
+div.viewport{
+    height: 50vh;
+}
