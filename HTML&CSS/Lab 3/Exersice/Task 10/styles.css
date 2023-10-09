@@ -32,7 +32,6 @@ body{
     display: flex;
     height: 40%;
     justify-content: center;
-    box-shadow: inset 10px 10px 10px rgba(9, 0, 1, 0.907);
    }
 
    .card1{
