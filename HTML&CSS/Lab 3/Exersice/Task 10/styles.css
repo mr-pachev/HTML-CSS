@@ -13,7 +13,6 @@ body{
 .viewport{
     display: flex;
     flex: 1;
-    
     height: 50%;
     justify-content: center;
     align-items: center;
@@ -23,7 +22,6 @@ body{
 .viewport1{
     display: flex;
     flex: 1;
-   
     height: 50%;
     justify-content: center;
     align-items: center;
@@ -32,12 +30,13 @@ body{
 
    .card{
     display: flex;
-    height: 45%;
+    height: 40%;
     justify-content: center;
+    box-shadow: inset 10px 10px 10px rgba(9, 0, 1, 0.907);
    }
 
    .card1{
     display: flex;
-    height: 95%;
+    height: 90%;
     justify-content: center;
    }
