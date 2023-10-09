@@ -1,29 +1,43 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    height: 100%;
 }
 
 body{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100%;
 }
 
 .viewport{
-    width: 100%;
-    height: 50%;
     display: flex;
-    background-color: red;
+    flex: 1;
+    
+    height: 50%;
     justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #0161a1, #50f695);
 }
 
 .viewport1{
-    width: 100%;
-    height: 50%;
     display: flex;
-    background-color: blue;
+    flex: 1;
+   
+    height: 50%;
     justify-content: center;
-}
+    align-items: center;
+    background: linear-gradient(to right, #92027f, #c8a60f);
+   }
 
+   .card{
+    display: flex;
+    height: 45%;
+    justify-content: center;
+   }
 
+   .card1{
+    display: flex;
+    height: 95%;
+    justify-content: center;
+   }
