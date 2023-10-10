@@ -1,0 +1,29 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+}
+
+section{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    border: 1px solid black;
+}
+
+section.notes{
+    flex-direction: column;
+}
+
+section.week{
+    flex-wrap: wrap;
+
+}

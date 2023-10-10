@@ -28,3 +28,8 @@ span{
     border: 1px solid black;
     border-radius: 0.2em;
 }
+
+span:nth-child(0) { order: 9;}
+span:nth-child(3) { order: 10;}
+span:nth-child(7) { order: 11;}
+span:nth-child(3) { order: 12;}
