@@ -6,24 +6,30 @@ html{
 
 .container{
     display: flex;
-    align-items: center;
     max-width: 65vw;
 }
 
 section{
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 span{
+    display: flex;
     border: 1px solid black;
+    flex-grow: 1;
+    padding: 1em;
+    padding-bottom: 4em;
+    justify-content: center;
 }
 
-section.notes{
+.notes{
+    width: 13em;
     flex-direction: column;
+    flex-grow: 1;
 }
 
-section.week{
-    flex-wrap: wrap;
-
+section.week span:nth-child(1),
+section.week span:nth-child(7){
+    flex-basis: 100%;
 }
