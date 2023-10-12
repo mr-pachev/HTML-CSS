@@ -27,9 +27,18 @@ body{
 }
 
 blockquote{
+    display: block;
     font-family: Georgia, serif;
+    border-left: 4px solid #CCC;
+    margin-right: 1.5em;
+    padding-left: 1em;
+    font-style: italic;
+    opacity: 0.6;
 }
 
+blockquote :last-child{
+    text-align: right;
+}
 
 .page > main{ 
     padding: 0;
