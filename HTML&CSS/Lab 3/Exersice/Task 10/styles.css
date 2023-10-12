@@ -34,8 +34,8 @@ body{
     
    }
 
-  section img{
-    box-shadow: inset 10PX 10px white;
+  img {
+    box-shadow: inset 10px 10px white;
    }
 
    .card1{
