@@ -54,6 +54,13 @@ aside a{
     color:  rgb(0, 153, 0);
 }
 
+img{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    padding: 0.5em;
+}
+
 .pic1{
     float: right;
     margin: 0 0 1em 1em;
