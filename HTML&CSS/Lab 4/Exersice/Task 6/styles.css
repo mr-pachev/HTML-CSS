@@ -12,7 +12,7 @@ body{
 
 .gallery{
     display: flex;
-    max-width: 75em;
+    max-width: 55em;
 }
 
 .gallery ul{
@@ -20,11 +20,20 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2em;
-}
+    }
 
 .gallery li{
+    flex: 1 1 200px;
     display: flex;
     border: 8px solid black;
     align-items: center;
     padding: 2em 1em;
+    box-shadow: 0 0 1.2em 0.1em rgba(0,0,0,0.4);
+    box-shadow: 0 0 0.6em 0.1em rgba(0,0,0,0.4) inset;
+}
+
+.gallery img{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
