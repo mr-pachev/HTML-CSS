@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    padding: 2em;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 45em;
+    margin: 2em auto;
+    gap: 4em;
+}
+
+.page > header{
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    border-bottom: 1px solid gray;
+    margin-bottom: 1em;
+    flex: 1 1 100%;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+
+blockquote{
+    font-family: Georgia, serif;
+}
+
+.page > main{
+    flex: 1 1 65%;
+}
+
+.page > aside{
+    flex: 1 1 25%;
+}
+
+p{
+    padding: 1em 0
+}
+
+aside ul{
+    padding: 0 2em;
+}
+
+aside a{
+    text-decoration: none;
+    color:  rgb(0, 153, 0);
+}
