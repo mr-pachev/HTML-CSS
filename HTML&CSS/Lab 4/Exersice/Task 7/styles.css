@@ -12,7 +12,7 @@ body{
 .page{
     display: flex;
     flex-wrap: wrap;
-    max-width: 45em;
+    max-width: 65em;
     margin: 1em auto;
 }
 
@@ -30,6 +30,7 @@ blockquote{
     font-family: Georgia, serif;
 }
 
+
 .page > main{ 
     padding: 0;
     flex: 1 1 65%;
@@ -45,10 +46,20 @@ p{
 }
 
 aside ul{
-    padding: 0 2em;
+    padding: 0.5em 2em;
 }
 
 aside a{
     text-decoration: none;
     color:  rgb(0, 153, 0);
+}
+
+.pic1{
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.pic2{
+    float: left;
+    margin: 0 1em 1em 0;
 }
