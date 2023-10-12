@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
+    z-index: 10;
 }
 
 .viewport{
@@ -29,13 +30,16 @@ body{
    }
 
    .card{
-    display: flex;
     height: 40%;
-    justify-content: center;
+    
+   }
+
+  section img{
+    box-shadow: inset 10PX 10px white;
    }
 
    .card1{
-    display: flex;
+    display: block;
     height: 90%;
-    justify-content: center;
    }
+
