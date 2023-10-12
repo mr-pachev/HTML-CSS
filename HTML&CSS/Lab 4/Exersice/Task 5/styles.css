@@ -10,14 +10,14 @@ html{
 body{
     padding: 2em;
     max-width: 100%;
-    font-family: Helvetica, sans-serif;
-}
+   }
 
 header{
     border-bottom: 2px solid rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     margin-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 header ul{
@@ -37,4 +37,9 @@ header a{
 
 p{
     padding: 1em 0;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
 }
