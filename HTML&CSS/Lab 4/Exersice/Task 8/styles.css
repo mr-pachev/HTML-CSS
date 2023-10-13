@@ -18,7 +18,7 @@ body{
 
 header{
     border-bottom: 1px solid black;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     text-transform: uppercase;
     padding-bottom: 1em;
 }
@@ -33,7 +33,7 @@ main{
 footer{
     background-color: rgb(102, 102, 102);
     color: rgb(255, 255, 255);
-    padding: 1.5em 2em;
+    padding: 1em 1.7em;
 }
 
 p{
