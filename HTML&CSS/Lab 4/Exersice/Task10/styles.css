@@ -28,8 +28,21 @@ body{
     overflow: hidden;
     border-radius: 0.3em;
     box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.2);
+    transition: width 0.3s ease-in-out;
 }
 
-img{
+.container li:hover{
+    width: 35em;
+}
+
+.container li:hover img{
+    transform: translateX(0);
+}
+
+.container img{
+    display: block;
+    width: auto;
     height: 100%;
+    transform: translateX(-50%);
+    transition: transform 0.3s ease-in-out;
 }
