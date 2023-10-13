@@ -30,7 +30,7 @@ div{
     display: flex;
     flex: 1 1 100%;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 1em;
 }
 
 blockquote{
@@ -43,8 +43,9 @@ blockquote{
     opacity: 0.6;
 }
 
-blockquote p:first-child{
-    max-width: 100%;
+p{
+    flex: 1 1 100%;
+    padding: 1em 0
 }
 
 blockquote :last-child{
@@ -59,11 +60,6 @@ blockquote :last-child{
 .page > aside{
     flex: 1 1 25%;
     margin-left: 3em;
-}
-
-p{
-    flex: 1 1 100%;
-    padding: 1em 0
 }
 
 aside ul{
