@@ -28,17 +28,23 @@ body{
 
 div{
     display: flex;
+    flex: 1 1 100%;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 blockquote{
-   ,max-width: 20%;
+    flex: 1 1 100%;
     font-family: Georgia, serif;
     border-left: 4px solid #CCC;
     margin-right: 1.5em;
     padding-left: 1em;
     font-style: italic;
     opacity: 0.6;
+}
+
+blockquote p:first-child{
+    max-width: 100%;
 }
 
 blockquote :last-child{
@@ -56,6 +62,7 @@ blockquote :last-child{
 }
 
 p{
+    flex: 1 1 100%;
     padding: 1em 0
 }
 
