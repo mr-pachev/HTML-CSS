@@ -24,8 +24,8 @@ main{
 }
 
 nav{
-    min-width: 6%;
-    padding: 0.9em 0 0 0.9em;
+   
+    padding: 0.2em 3em 0 1em;
 }
 
 section{
@@ -38,4 +38,22 @@ footer{
 
 nav li{
     display: block;
+    margin: 0.7em 0 0.7em 0;
+}
+
+section ul{
+    margin-top: 1em;
+    padding-left: 2em;
+}
+
+section a{
+    display: block;
+    text-decoration: none;
+    color:  black
+}
+
+@media (max-width: 500px){
+    main{
+        flex-direction: column;
+    }
 }
