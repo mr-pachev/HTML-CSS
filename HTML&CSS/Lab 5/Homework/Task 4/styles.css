@@ -1,0 +1,6 @@
+@media screen and (hover: hover){
+    code{
+        background-color: black;
+        color: white;
+    }
+}
