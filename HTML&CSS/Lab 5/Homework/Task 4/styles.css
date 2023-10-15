@@ -1,5 +1,5 @@
 @media screen and (hover: hover){
-    code{
+    code:hover{
         background-color: black;
         color: white;
     }
