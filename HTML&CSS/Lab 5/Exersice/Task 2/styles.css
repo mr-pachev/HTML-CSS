@@ -21,19 +21,23 @@ main{
     display: flex;
     min-height: 100vh;
     gap: 0.5em;
+    flex-shrink: 1;
 }
 
 nav{
     padding: 0.2em 3em 0 1em;
     color: blueviolet;
+    flex-shrink: 1;
 }
 
 section{
     flex-grow: 1;
+    flex-shrink: 1;
 }
 
 footer{
     padding: 0.7em;
+    position: sticky;
 }
 
 nav li{
@@ -94,6 +98,10 @@ header > ul li:nth-child(3)
 
     header li{
         padding: 1em 0;
+    }
+
+    header > ul li:nth-child(1){
+        padding-left: 3em;
     }
 
 }
