@@ -52,6 +52,31 @@ section a{
     color:  black
 }
 
+header{
+    display: flex;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    }
+
+header li{
+    display: block;
+    color: rgb(47, 0, 255);
+}
+
+header > ul li:nth-child(1)
+{
+    padding-left: 2em;
+}
+
+header > ul li:nth-child(2),
+header > ul li:nth-child(3)
+{
+    padding-left: 3em;
+}
+
 @media (max-width: 500px){
     main{
         flex-direction: column;
