@@ -13,14 +13,14 @@ body{
 
 section{
     display: block;
-    width: 28%;
+    width: 30%;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.384);
 }
 
 .main{
-    padding: 1.5em;
+    padding: 1em;
 }
 
 .main p{
@@ -38,7 +38,16 @@ img{
 }
 
 .button{
+    font-family: Helvetica, sans-serif;
+    margin: 0 1em 1em 72%;
     background-color: rgb(0, 153, 0);
+    color: white;
+    border-radius: 0.2em;
+}
+
+.button p{
+    padding: 0.6em 0;
+    text-align: center;
 }
 
 h2{
