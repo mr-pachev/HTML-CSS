@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html{
-    font-family: Helvetica, sans-serif;
-}
-
 body{
     display: flex;
     background-color: rgb(238, 238, 238);
@@ -16,8 +12,25 @@ body{
 }
 
 section{
+    display: block;
+    width: 28%;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.384);
+}
+
+.main{
+    padding: 1.5em;
+}
+
+.main p{
+    margin-top: 1em;
+    font-family: Helvetica, sans-serif;
+}
+
+.pic img{
+    width: 100%;
+    height: auto;
 }
 
 img{
@@ -30,5 +43,6 @@ img{
 
 h2{
     font-family: Georgia, serif;
-    font-size: 1em/1.2;
+    font-size: 1em;
+    line-height: 1.2;
 }
