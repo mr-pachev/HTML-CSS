@@ -4,32 +4,31 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    margin: 5em 0 0 5em;
-    background-color: rgb(238, 238, 238);
-    border-radius: 0.5em;
+html{
+    font-family: Helvetica, sans-serif;
 }
 
-section{ 
-    background-color: rgb(255, 255, 255);
-    }
+body{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    min-width: 100vw;
+    margin: 5em auto auto 5em;
+}
 
-ul{
-    list-style: none;
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
 }
 
 img{
     border-radius: 5px 5px 0 0;
 }
 
-.main{
-    padding: 2em;
+.button{
+    background-color: rgb(0, 153, 0);
 }
 
-.button{
-    margin:0 2em 2em 77%;
-    background-color: rgb(0, 153, 0);
-    color: white;
-    text-align: center;
+h2{
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
 }
