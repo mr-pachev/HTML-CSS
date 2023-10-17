@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     margin: 5em 0 0 5em;
     background-color: rgb(238, 238, 238);
@@ -15,10 +15,21 @@ section{
     background-color: rgb(255, 255, 255);
     }
 
-    ul{
-        list-style: none;
-    }
+ul{
+    list-style: none;
+}
 
 img{
     border-radius: 5px 5px 0 0;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    border: 1px soldi black;
+    background-color: rgb(0, 153, 0);
+    color: white;
 }
