@@ -28,6 +28,10 @@ div{
     flex-direction: column;
 }
 
+div > p, h2{
+    padding: 2em;
+}
+
 .button{
     border: 1px soldi black;
     background-color: rgb(0, 153, 0);
