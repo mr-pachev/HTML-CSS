@@ -8,10 +8,11 @@
    }
 
  html {
-       box-sizing: border-box;
+        font-family: hevletica, sans-serif;
+        box-sizing: border-box;
       }
 
-      body{
+body{
         background-color: #f1f1f1;
       }
 
@@ -20,14 +21,22 @@ table {
     width: 100vw;  
 }
 
-table tr{
+table thead tr th,
+table tbody tr td {
+    width: 30%;
+    border: 1px solid #d5d5d5;
+    padding: 0.4em;
+    text-align: left;
+}
+
+
+.table-container tr{
     border-left: 2px solid #f1f1f1;
 } 
 
 .table-container th{
     background-color: black;
     color: white;
-    text-align: left;
 }
 
 .table-container tr:nth-child(1){
