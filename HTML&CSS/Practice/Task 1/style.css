@@ -5,23 +5,16 @@
 }
 
 .container{
-    border: 1px solid black;
+    display: flex;
+    width: 900px;
     margin: 2em;
-    height: 300px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
-.container .first-section{
-    height: 30%;
-    border: 1px solid blue;
-}
-
-.second-section__left{
-    display: inline-block;
-    
-    border: 1px solid green;
-}
-.second-section .second-section__right{
-    display: inline-block;
-    
-    border: 1px solid rgb(128, 0, 70);
+.top-box{
+    flex-grow: 1;
+    width: 100%;
+    border: 1px solid rgb(247, 11, 11);
 }
