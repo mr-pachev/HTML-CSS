@@ -15,7 +15,13 @@
     border: 1px solid blue;
 }
 
-.container .second-section{
-    height: 70%;
-    border: 1px solid rgb(255, 0, 4);
+.second-section__left{
+    display: inline-block;
+    
+    border: 1px solid green;
+}
+.second-section .second-section__right{
+    display: inline-block;
+    
+    border: 1px solid rgb(128, 0, 70);
 }
