@@ -25,6 +25,22 @@
 }
 
 .right-box{
+    display: flex;
+    flex-wrap: wrap;
     width: 70%;
     border: 2px solid rgb(6, 105, 20);
+}
+
+.right-top1{
+    width: 100%;
+    border: 2px solid rgb(213, 227, 17);
+}
+
+.right-top2{
+    width: 50%;
+    border: 2px solid rgb(67, 97, 71);
+}
+.right-top3{
+    width: 50%;
+    border: 2px solid rgb(6, 105, 105);
 }
