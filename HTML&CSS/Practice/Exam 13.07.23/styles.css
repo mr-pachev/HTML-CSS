@@ -12,11 +12,13 @@ html{
 }
 
 .container{
+    padding: 3em;
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    background-image: url(image/background.jpg);
 }
 
 .box-left, .box-middle,
@@ -46,7 +48,7 @@ h2{
 
 .subtitle{
     margin-bottom: 1.5em;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 ul{
