@@ -73,7 +73,8 @@ h3{
 }
 
 h2{
-    font-style:initial;
+    font-weight: 400;
+    font-size: 28px;
     color: #3f3d3d;
     margin-bottom: 1.5em;
 }
