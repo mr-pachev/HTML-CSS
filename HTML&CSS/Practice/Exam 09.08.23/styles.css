@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
 
-*,
-	*::after,
-	*::before{
-	box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -11,58 +11,38 @@ html {
    }
 
 body{
-    max-width: 100vw;
-    max-height: 100vh;
-    aspect-ratio: 1/1;
     background-image: url("images/background.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    object-fit: cover;
-}
+    background-position: center;
+    background-attachment: fixed;
+    }
 
-container{
+.box1{
     display: flex;
-    margin: 20px;
-}
+    margin: 2em 4em;
+    gap: 1em;
+	}
 
 .box-left{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 65%;
+    border: 1px solid rgb(106, 0, 255);
+}
+
+.box-rigt{
+    width: 45%;
+    background-color: white;
+    border: 1px solid rgb(26, 255, 0);
+}
+
+.top{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.box-right{
-    display: flex;
-    flex-direction: column;
-}
-
-.box-left .left-top, .box-left .left-bottom{
-    display: flex;
-    flex-wrap: wrap;
     background-color: white;
 }
 
-h2{
-    display: inline-block;
-}
-
-.box-left .pa{
-    width: 120em;
-}
-
-.box-left .left-top{
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 100%;
-}
-
-.image-top{
-    width: 100px;
-}
-
-.image-top .pic-img{
-	width: 100%;
-    height: auto;
-    border-radius: 50%;
+.bottom{
+    width: 100%;
+    background-color: white;
 }
