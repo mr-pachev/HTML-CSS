@@ -26,15 +26,34 @@ html{
     border: 1px solid black;
     }
 
-ul{
-    list-style: none;
-}
-
 span{
     font-size: 62px;
     font-weight: 700;
 }
 
+.middle{
+    font-size: 72px;
+    font-weight: 700;
+}
+
 h2{
     margin-bottom: 1em;
+}
+
+.price{
+    margin-bottom: 1em;
+}
+
+.subtitle{
+    margin-bottom: 1.5em;
+    font-size: 14px;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 3em;
+}
+
+li{
+    margin-bottom: 0.5em;
 }
