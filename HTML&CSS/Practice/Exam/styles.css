@@ -80,10 +80,14 @@ h2{
 }
 
 h4{
+    font-weight: 400;
+    font-size: 16px;
     color: #4b4b4b;
 }
 
 h5{
+    font-weight: 400;
+    font-size: 16px;
     color: #a6a5ae;
 }
 
