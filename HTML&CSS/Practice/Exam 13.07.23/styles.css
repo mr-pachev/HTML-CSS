@@ -28,7 +28,13 @@ html{
     border: 1px solid black;
     }
 
+    .price{
+        color: #8e8d8d;
+        margin-bottom: 1em;
+    }
+
 span{
+    color: black;
     font-size: 62px;
     font-weight: 700;
 }
@@ -42,13 +48,10 @@ h2{
     margin-bottom: 1em;
 }
 
-.price{
-    margin-bottom: 1em;
-}
-
 .subtitle{
     margin-bottom: 1.5em;
     font-size: 12px;
+    color: #8e8d8d;
 }
 
 ul{
@@ -58,4 +61,13 @@ ul{
 
 li{
     margin-bottom: 0.5em;
+}
+
+.button{
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    
 }
