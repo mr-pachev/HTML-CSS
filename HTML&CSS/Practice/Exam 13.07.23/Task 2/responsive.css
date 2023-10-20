@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+    .navigation-nav {
+        display: none;
+    }
+
+    .home-tab-selector-cards-container{
+        grid-template-columns: none
+    }
+    
+    .home-image-container{
+        display: none;
+    }
+
+    .home-top-part{
+        flex-wrap: wrap;
+    }
+
+    .home-links-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .home-image-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .section-container{
+        padding-top: 40px;
+    }
+}
