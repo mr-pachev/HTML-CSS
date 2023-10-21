@@ -21,7 +21,7 @@ body{
     flex: 1 1 auto;
     justify-content: center;
     gap: 2em;
-    padding: 2em;
+    padding: 3em 5em;
     background-image: url(images/background.jpg);
 }
 
@@ -29,12 +29,13 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
-    min-width: 743px;
+    min-width: 800px;
   }
 
 .box-right{
     display: flex;
     flex-direction: column;
+    padding: 2em;
     background-color: white;
   }
 
@@ -42,8 +43,13 @@ body{
     display: flex;
     flex: 1 1 auto;
     flex-wrap: wrap;
+    justify-content: space-between;
     background-color: white;
+    padding: 2em 0 2em 2em;
     }
+.bottom{
+    display:flex;
+}
 
 .box-top .description,
 .box-bottom .description{
@@ -52,7 +58,7 @@ body{
 }
 
 .pic1, .pic2{
-    margin: 3em 2em;
+    margin: 2em 2em 0 0;
     display: flex;
     flex: 0 1 auto;
     width: 200px;
@@ -78,3 +84,20 @@ body{
     margin-bottom: 20px;
     font-size: 68px;
 }
+
+.box-right .description .quotes .fa-solid.fa-quote-left{
+    margin-bottom: 1em;
+    font-size: 85px;
+}
+
+.name{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.box-right .description{
+    margin-top: 2em;
+    padding-bottom: 4em;
+    border-bottom: 2px solid gray;
+}
+
