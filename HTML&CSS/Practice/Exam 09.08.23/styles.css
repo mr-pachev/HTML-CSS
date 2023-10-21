@@ -49,6 +49,7 @@ body{
     }
 .bottom{
     display:flex;
+    flex-wrap: wrap;
 }
 
 .box-top .description,
@@ -97,7 +98,14 @@ body{
 
 .box-right .description{
     margin-top: 2em;
-    padding-bottom: 4em;
+    margin-bottom: 1em;
+    padding-bottom: 8em;
     border-bottom: 2px solid gray;
+}
+
+.par{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
