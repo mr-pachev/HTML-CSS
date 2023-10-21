@@ -10,7 +10,7 @@
 html{
     font-family: Inter, sans-serif;
     font-size: 18px;
-}
+    }
 
 body{
     display: flex;
@@ -56,6 +56,7 @@ body{
 .box-bottom .description{
     width: 470px;
     margin-top: 3em;
+    color: #93908e;
 }
 
 .pic1, .pic2{
@@ -81,9 +82,14 @@ body{
     height: 100px;
 }
 
+.pic3 img{
+    filter: grayscale(100%);
+}
+
 .quotes .fa-solid.fa-quote-left{
     margin-bottom: 20px;
     font-size: 68px;
+    color: black;
 }
 
 .box-right .description .quotes .fa-solid.fa-quote-left{
@@ -94,18 +100,32 @@ body{
 .name{
     margin-top: 0;
     margin-bottom: 1em;
+    font-weight: 600;
 }
 
 .box-right .description{
     margin-top: 2em;
     margin-bottom: 1em;
     padding-bottom: 8em;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #93908e;
+    color: #93908e;
+}
+
+.par .name{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+.par .job{
+    font-size: 12px;
+    font-weight: 600;
+    color: #93908e;
 }
 
 .par{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
