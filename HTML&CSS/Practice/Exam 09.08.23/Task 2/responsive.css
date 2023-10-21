@@ -1,0 +1,31 @@
+@media (max-width: 600px){
+    header nav{
+        justify-content: center;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-description ul{
+       flex-direction: row;
+       flex-wrap: wrap;
+       flex: 0 1 480px;
+       gap: 1em;
+    }
+
+    .team-description ul li img {
+        max-width: 213px;
+        max-height: 213px;
+    }
+
+    .blog-news ul{
+        gap: 2em;
+    }
+        
+    .blog-news ul .item {
+        margin: 0 2em;
+        justify-content: center;
+    }
+}
