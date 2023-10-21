@@ -12,37 +12,47 @@ html{
     font-size: 18px;
 }
 
+body{
+    display: flex;
+}
+
 .container{
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
-    align-items: center;
-    margin: 2em;
+    gap: 2em;
+    padding: 2em;
+    background-image: url(images/background.jpg);
 }
 
 .box-left{
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 auto;
+    gap: 2em;
+    min-width: 743px;
   }
 
-  .box-right{
+.box-right{
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    background-color: white;
   }
 
-.box-top, box-bottom{
+.box-top, .box-bottom{
     display: flex;
     flex: 1 1 auto;
     flex-wrap: wrap;
+    background-color: white;
     }
 
-.box-top .description{
-    width: 20%;
+.box-top .description,
+.box-bottom .description{
+    width: 470px;
+    margin-top: 3em;
 }
 
 .pic1, .pic2{
+    margin: 3em 2em;
     display: flex;
     flex: 0 1 auto;
     width: 200px;
@@ -57,6 +67,14 @@ html{
 	object-fit: cover;
 }
 
+.pic3 {
+    display: flex;
+    flex: 0 1 auto;
+    width: 100px;
+    height: 100px;
+}
+
 .quotes .fa-solid.fa-quote-left{
+    margin-bottom: 20px;
     font-size: 68px;
 }
