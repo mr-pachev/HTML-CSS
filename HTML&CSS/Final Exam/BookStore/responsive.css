@@ -5,8 +5,13 @@
     }
     
     .home-cards-container{
-        width: 80%;
+        width: 100%;
         grid-gap: 10px;
+    }
+
+    .category-card-image{
+        width: 292px;
+        height: 292px;
     }
 
     .max-width-container{
@@ -33,12 +38,16 @@
     .blog-post-card-blog-post-card{
         max-width: 695px;
     }
+
+    .home-main{
+        padding-bottom: 15px;
+    }
     
     .home-footer1, .home-links-container{
         flex-direction: column-reverse;
     }
 
     .home-footer1{
-        padding: 1em;
+        padding: 3em 2em 2em 2em;
     }
 }
