@@ -1,5 +1,6 @@
 @media screen and (max-width: 600px){
-    .home-header .max-width-container{
+
+    .home-navbar1{
         display: none;
     }
     
@@ -11,5 +12,33 @@
     .max-width-container{
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .home-left4{
+        padding: 2em;
+    }
+
+    .home-image6{
+        width: 100%;
+    }
+
+    .home-text30{
+        width: 559px;
+    }
+
+    .section-container{
+        flex-direction: column;
+    }
+
+    .blog-post-card-blog-post-card{
+        max-width: 695px;
+    }
+    
+    .home-footer1, .home-links-container{
+        flex-direction: column-reverse;
+    }
+
+    .home-footer1{
+        padding: 1em;
     }
 }
