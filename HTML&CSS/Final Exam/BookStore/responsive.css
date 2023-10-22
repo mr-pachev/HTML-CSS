@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px){
+    .home-header .max-width-container{
+        display: none;
+    }
+    
+    .home-cards-container{
+        width: 80%;
+        grid-gap: 10px;
+    }
+
+    .max-width-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

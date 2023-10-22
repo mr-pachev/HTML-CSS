@@ -1,0 +1,77 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Helvetica, sans-serif;
+   }
+
+.container{
+    display: flex;
+    margin: 2em;
+    padding: 3em;
+    justify-content: space-between;
+    background-color: #1881b6;
+    border: 6px solid black;
+    border-radius: 15px;
+    gap: 1em;
+   }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-right: 2em;
+    justify-content: space-between;
+    width: 90%;
+    font-weight: 600;
+   }
+
+.pic{
+    width: 50%;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    
+p {
+    text-indent: 30px;
+    line-height: 2;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.nav{
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-evenly;
+}
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.contact{
+    color: white;
+    background-color: #b6416d;
+}
