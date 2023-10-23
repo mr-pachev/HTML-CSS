@@ -144,8 +144,8 @@ html{
 
 .logos1, .logos2{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     background-color: #ada8a8;
 }
@@ -155,8 +155,8 @@ html{
     top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     object-fit: cover;
  }
 
