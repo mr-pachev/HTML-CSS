@@ -60,8 +60,6 @@ h2{
 
 .nav{
     display: flex;
-    flex-shrink: 1;
-    height: auto;
     margin-top: 2em;
     justify-content: space-evenly;
 }
