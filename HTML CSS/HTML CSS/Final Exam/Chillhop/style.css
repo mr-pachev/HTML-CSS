@@ -24,11 +24,11 @@ html{
 
 .content{
     display: flex;
-    flex: 1 1 90%;
     flex-direction: column;
     margin-top: 2em;
     margin-right: 2em;
     justify-content: space-between;
+    width: 90%;
     font-weight: 600;
    }
 
@@ -60,6 +60,8 @@ h2{
 
 .nav{
     display: flex;
+    flex-shrink: 1;
+    height: auto;
     margin-top: 2em;
     justify-content: space-evenly;
 }
