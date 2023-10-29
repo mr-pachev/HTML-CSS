@@ -1,4 +1,4 @@
-![Certificate]([[https://softuni.bg/certificates/certificates/converttoimage/181395?code=b057f352](https://softuni.bg/certificates/certificates/converttoimage/190660?code=c80ef448)])
+![Certificate](https://softuni.bg/certificates/certificates/converttoimage/190660?code=c80ef448)
 # HTML-CSS
 Основни знания по уеб технологии и по-конкретно запознаване с HTML5 и CSS3.
 
